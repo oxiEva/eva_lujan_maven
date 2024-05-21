@@ -1,3 +1,4 @@
+@checkout
 Feature: Checkout
 
   Background:
@@ -20,4 +21,4 @@ Feature: Checkout
     And I proceed to checkout
     And I fill in the checkout information
     And I finish the checkout process
-    Then the order confirmation message should be displayed
+    Then the order confirmation message "Your order has been dispatched, and will arrive just as fast as the pony can get there! " should be displayed

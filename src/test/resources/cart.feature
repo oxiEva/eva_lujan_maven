@@ -1,3 +1,4 @@
+@cart
 Feature: Cart Management
 
   Scenario: Remove a product from the cart

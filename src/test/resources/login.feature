@@ -1,3 +1,4 @@
+@login
 Feature: Login
 
   Background:
@@ -9,8 +10,7 @@ Feature: Login
     And I click the Login button
     Then I should be redirected to "https://www.saucedemo.com/inventory.html"
 
-  Scenario Outline: Successfully login with valid credentials
-    Given I navigate to "https://www.saucedemo.com/"
+  Scenario Outline: Successfully others users login with valid credentials
     When I enter "<username>" into the username field
     And I enter "secret_sauce" into the password field
     And I click the Login button

@@ -1,3 +1,4 @@
+@logout 
 Feature: Logout
 
   Scenario: Successfully log out
